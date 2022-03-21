@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "461196380037",
+    "firebase_url": "https://studentapp-abd53-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "studentapp-abd53",
+    "storage_bucket": "studentapp-abd53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461196380037:android:857e56cfecc4851024a6ec",
+        "android_client_info": {
+          "package_name": "com.example.studentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461196380037-16qmvs3rp1is0gpb6akln21is38rkmla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfdqsFRxGC4siawIYy0qN8nsP1f9LQggM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461196380037-16qmvs3rp1is0gpb6akln21is38rkmla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Formdetails" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/empt6"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#FFFFFF"
+            android:text="Please fill the details:"
+            android:textColor="#000001"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/empt3"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#FFFFFF"
+            android:text="\n"
+            android:textColor="#000001"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:text="1. Enter your Name:"
+            android:textColor="#000001"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/empt"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:background="#FFFFFF"
+            android:text="\n"
+            android:textColor="#000001"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:text="2. Enter your Registration Number:"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/reg_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/empt2"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:background="#FFFFFF"
+            android:text="\n"
+            android:textColor="#000001"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:text="3. Mention your Gender:"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MALE" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FEMALE"/>
+
+            <TextView
+                android:id="@+id/empt12"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:background="#FFFFFF"
+                android:text="\n"
+                android:textColor="#000001"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:text="4. Enter your State:"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/states"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/empt4"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#FFFFFF"
+            android:text="\n"
+            android:textColor="#000001"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:text="5. Are you Vaccinated?"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/vaccinated"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/v_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YES" />
+
+            <RadioButton
+                android:id="@+id/v_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO" />
+
+            <TextView
+                android:id="@+id/empt13"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:background="#FFFFFF"
+                android:text="\n"
+                android:textColor="#000001"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:text="6. Are you affected by COVID-19  previously?"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/pre_covid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/pc_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YES" />
+
+            <RadioButton
+                android:id="@+id/pc_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/empt9"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#FFFFFF"
+            android:text="\n"
+            android:textColor="#000001"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:text="7. Do you have lockdown in your area?"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/lockdown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/lock_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YES" />
+
+            <RadioButton
+                android:id="@+id/lock_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO" />
+
+            <TextView
+                android:id="@+id/empt15"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:background="#FFFFFF"
+                android:text="\n"
+                android:textColor="#000001"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:text="8. How much dosages?"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/dosages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ONE" />
+
+            <RadioButton
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TWO" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/empt8"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#FFFFFF"
+            android:text="\n"
+            android:textColor="#000001"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:text="9. Are your family members affeced by virus in last 20 days?"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/fam_covid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/fc_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YES" />
+
+            <RadioButton
+                android:id="@+id/fc_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO" />
+
+            <TextView
+                android:id="@+id/empt14"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:background="#FFFFFF"
+                android:text="\n"
+                android:textColor="#000001"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:text="10. Are you willing to come to college?"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/willing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/willing_yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YES" />
+
+            <RadioButton
+                android:id="@+id/willing_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO" />
+
+            <TextView
+                android:id="@+id/empt11"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:background="#FFFFFF"
+                android:text="\n"
+                android:textColor="#000001"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#673AB7"
+            android:text="SUBMIT"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
